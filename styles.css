@@ -63,6 +63,11 @@ body {
   border-radius: 9px;
 }
 
+p {
+  font-size: large;
+  
+}
+
 h1 {
   margin-bottom: 30px;
   font-family: "Courier New", Courier, monospace;
