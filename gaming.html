@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styleshobbies.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+    <title>Hobbies: Gaming</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="contactlink">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hobbies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/index.html">Home</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="/chess.html">Chess</a></li>
+                <li><a class="dropdown-item" href="/anime.html">Anime</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              autocomplete="off"
+              id="searchtext"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              id="searchbtn"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1
+      style="
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #448fd9;
+      "
+    >
+      <u>Gaming|Game Dev</u>
+    </h1>
+    <p style="margin-left: 3%">Some of my favorite games include:</p>
+
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg?t=1667006028"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://cdn.cloudflare.steamstatic.com/steam/apps/105600/capsule_616x353.jpg?t=1666290860"
+        />
+      </div>
+    </div>
+
+    <p style="margin-left: 3%; margin-top: 5%">
+      Unity game I've worked on based on the game Left on Read:
+    </p>
+    <center>
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/uAeYDTFNWqQ"
+      >
+      </iframe>
+    </center>
+  </body>
+</html>
