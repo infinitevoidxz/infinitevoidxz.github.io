@@ -114,6 +114,38 @@ a {
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust the height as needed */
+  margin: auto;
+}
+
+.rounded-image {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 50%; /* Set the width to 50% of the container */
+}
+
+.rounded-image img {
+  border-radius: 20px;
+  overflow: hidden;
+  display: block; /* Ensure it's a block-level element */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.certificate-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: #7fdff7; /* Set the color to match your design */
+}
+
 @media only screen and (max-width: 920px) {
 }
 
